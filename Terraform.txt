@@ -1,0 +1,25 @@
+===================Terraform:=====================
+Terraform is an open-source infrastructure as code (IaC) tool developed by HashiCorp. It enables users to define and provision infrastructure resources in a declarative configuration language. With Terraform, you can describe the desired state of your infrastructure, and the tool takes care of creating and managing the resources to achieve that state.
+
+Key features of Terraform include:
+
+1.Declarative Configuration:
+Terraform uses a declarative configuration language to define infrastructure. Users specify the desired state of resources, and Terraform figures out the sequence of actions required to reach that state.
+
+2.Multi-Cloud Support:
+Terraform is cloud-agnostic and supports multiple cloud providers, including AWS, Azure, Google Cloud, and others. It can also be used for on-premises and hybrid cloud environments.
+
+3.Resource Graph:
+Terraform builds a dependency graph of resources based on the configuration. This allows it to determine the correct order of resource creation, modification, or deletion.
+
+4.State Management:
+Terraform maintains a state file that keeps track of the current state of the infrastructure. This state file is used to plan and apply changes, and it helps prevent drift between the defined configuration and the actual infrastructure.
+
+5.Modular Configurations:
+Infrastructure configurations in Terraform can be modularized, allowing users to create reusable components. This promotes code organization and reuse across projects.
+
+6.Plan and Apply Workflow:
+Terraform follows a two-step process: "terraform plan" and "terraform apply." The plan phase shows what changes will be made, and the apply phase executes those changes. This workflow ensures safety and predictability.
+
+7.Ecosystem of Providers:
+Terraform has a rich ecosystem of providers that extend its capabilities to manage various types of resources. Providers can be official or community-contributed and cover a wide range of cloud services and other infrastructure components.
